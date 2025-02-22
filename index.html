@@ -9,7 +9,8 @@
 
     body {
       font-family: 'Poppins', sans-serif;
-      background: linear-gradient(135deg, #74ebd5, #acb6e5);
+      background: url('techkritibg.jpeg') no-repeat center center fixed;
+      background-size: cover;
       margin: 0;
       padding: 0;
       display: flex;
@@ -20,16 +21,16 @@
     }
 
     .container {
-      background-color: rgba(0, 0, 0, 0.6); /* Black background */
+      background-color: rgba(0, 0, 0, 0.6);
       color: white;
       padding: 20px;
       border-radius: 15px;
       box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
-      max-width: 80%; /* Adjusted to match your previous website's size */
-      width: 500px; /* Default width for larger screens */
+      max-width: 80%;
+      width: 500px;
       text-align: center;
       position: relative;
-      backdrop-filter: blur(0px); /* Default no blur effect */
+      backdrop-filter: blur(0px);
     }
 
     h2 {
@@ -48,7 +49,7 @@
     }
 
     input[type="text"], input[type="email"], input[type="submit"], input[type="tel"], textarea {
-      width: calc(100% - 24px); /* Adjust width to fit within container padding */
+      width: calc(100% - 24px);
       padding: 12px;
       margin: 10px 0;
       border-radius: 8px;
@@ -56,7 +57,7 @@
       font-size: 16px;
       font-family: 'Poppins', sans-serif;
       transition: border-color 0.3s ease, box-shadow 0.3s ease;
-      box-sizing: border-box; /* Ensure padding and border are included in the width */
+      box-sizing: border-box;
     }
 
     input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus, textarea:focus {
@@ -103,8 +104,8 @@
     @media (max-width: 600px) {
       .container {
         padding: 15px;
-        width: 85%; /* Adjusted to match previous website's mobile size */
-        backdrop-filter: blur(10px); /* Apply blur effect on mobile */
+        width: 85%;
+        backdrop-filter: blur(10px);
       }
 
       h2 {
@@ -127,7 +128,7 @@
     @media (max-width: 400px) {
       .container {
         padding: 10px;
-        width: 90%; /* Further adjust container size for very small screens */
+        width: 90%;
       }
 
       h2 {
